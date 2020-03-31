@@ -1,0 +1,4 @@
+/Users/yaroslav/Desktop/Proga/Acronis/labs/yaropro14/workspace/projects/lab06/_build/_build/CMakeFiles/rebuild_cache.dir
+/Users/yaroslav/Desktop/Proga/Acronis/labs/yaropro14/workspace/projects/lab06/_build/_build/CMakeFiles/edit_cache.dir
+/Users/yaroslav/Desktop/Proga/Acronis/labs/yaropro14/workspace/projects/lab06/_build/_build/CMakeFiles/package_source.dir
+/Users/yaroslav/Desktop/Proga/Acronis/labs/yaropro14/workspace/projects/lab06/_build/_build/CMakeFiles/package.dir
