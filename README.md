@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/yaropro14/lab05.svg?branch=master)](https://travis-ci.org/yaropro14/lab05)
+[![Build Status](https://travis-ci.org/yaropro14/lab6.svg?branch=master)](https://travis-ci.org/yaropro14/lab06)
 #### About rep
 this rep have 3 parts
 **sources** include source code like print.cpp
