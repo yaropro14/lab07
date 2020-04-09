@@ -1,0 +1,59 @@
+Execute command: [
+  `which`
+  `cmake`
+]
+[/Users/yaroslav/Desktop/Proga/Acronis/labs/yaropro14/workspace/projects/lab07]> "which" "cmake"
+/usr/local/bin/cmake
+Execute command: [
+  `cmake`
+  `--version`
+]
+[/Users/yaroslav/Desktop/Proga/Acronis/labs/yaropro14/workspace/projects/lab07]> "cmake" "--version"
+cmake version 3.16.5
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+Execute command: [
+  `cmake`
+  `-H.`
+  `-B/Users/yaroslav/Desktop/Proga/Acronis/labs/yaropro14/workspace/projects/lab07/_builds/default`
+  `-DCMAKE_TOOLCHAIN_FILE=/Users/yaroslav/Desktop/Proga/Acronis/labs/yaropro14/workspace/projects/lab07/tools/polly/default.cmake`
+  `-DCMAKE_INSTALL_PREFIX=/Users/yaroslav/Desktop/Proga/Acronis/labs/yaropro14/workspace/projects/lab07/_install/default`
+]
+[/Users/yaroslav/Desktop/Proga/Acronis/labs/yaropro14/workspace/projects/lab07]> "cmake" "-H." "-B/Users/yaroslav/Desktop/Proga/Acronis/labs/yaropro14/workspace/projects/lab07/_builds/default" "-DCMAKE_TOOLCHAIN_FILE=/Users/yaroslav/Desktop/Proga/Acronis/labs/yaropro14/workspace/projects/lab07/tools/polly/default.cmake" "-DCMAKE_INSTALL_PREFIX=/Users/yaroslav/Desktop/Proga/Acronis/labs/yaropro14/workspace/projects/lab07/_install/default"
+-- [polly] Used toolchain: Default
+-- The C compiler identification is AppleClang 11.0.0.11000033
+-- The CXX compiler identification is AppleClang 11.0.0.11000033
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: /Users/yaroslav/projects/hunter
+-- [hunter] [ Hunter-ID: xxxxxxx | Toolchain-ID: 05328f4 | Config-ID: c96c9d3 ]
+-- [hunter] GTEST_ROOT: /Users/yaroslav/projects/hunter/_Base/xxxxxxx/05328f4/c96c9d3/Install (ver.: 1.10.0)
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+CMake Error at /usr/local/Cellar/cmake/3.16.5/share/cmake/Modules/CPack.cmake:540 (message):
+  CPack license resource file:
+  "/Users/yaroslav/Desktop/Proga/Acronis/labs/yaropro14/workspace/projects/lab07/LICENSE"
+  could not be found.
+Call Stack (most recent call first):
+  /usr/local/Cellar/cmake/3.16.5/share/cmake/Modules/CPack.cmake:545 (cpack_check_file_exists)
+  CPackConfig.cmake:24 (include)
+  CMakeLists.txt:67 (include)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/yaroslav/Desktop/Proga/Acronis/labs/yaropro14/workspace/projects/lab07/_builds/default/CMakeFiles/CMakeOutput.log".
